@@ -1,20 +1,19 @@
 # Name
 
-write-your-name
+Niklas Fejes
 
 # How many points have you earned?
 
-0/100
+100/100
 
-(Make your own calculation and replace the number 0 with the points you think you've earned.)
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+6 hours
 
 # When did you first start working on this week's learning challenges?
 
-fill-in-your-answer
+Saturday (25/10/14)
 
 # What is the most difficult part about this week's challenge?
 
@@ -36,43 +35,43 @@ fill-in-your-answer
 
 # 1. (3 points)
 
-![image](image.png?raw=true)
+![image](screenshots/d3/checkpoint1.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](html/checkpoint1.html)
 
 # 2. (3 points)
 
-![image](image.png?raw=true)
+![image](screenshots/d3/checkpoint2.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](html/checkpoint2.html)
 
 # 3. (3 points)
 
-![image](image.png?raw=true)
+![image](screenshots/d3/checkpoint3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](html/checkpoint3.html)
 
 # 4. (3 points)
 
-![image](image.png?raw=true)
+![image](screenshots/d3/checkpoint4.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](html/checkpoint4.html)
 
 ## Challenges (4 points x 3 = 12 points)
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](screenshots/d3/challenge1.png?raw=true)
 
 # 2. (4 points)
 
-![image](image.png?raw=true)
+![image](screenshots/d3/challenge2.png?raw=true)
 
 # 3. (4 points)
 
-![image](image.png?raw=true)
+![image](screenshots/d3/challenge3.png?raw=true)
 
-[challenge3](challenge3.html)
+[challenge3](html/challenge3.html)
 
 
 
