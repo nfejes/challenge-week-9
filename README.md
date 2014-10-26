@@ -91,61 +91,61 @@ fill-in-your-answer
 
 ### 1 (4 points)
 
-> db.course_events.[complete this query]
+`> db.course_events.findOne({'actor.login' : 'doubleshow' });`
 
 ![screenshot](screenshot.png?raw=true)
 
 ### 2 (4 points)
 
-> db.course_events.[complete this query]
+`> db.course_events.findOne({ 'actor.login' : 'doubleshow' }, { actor : 1 });`
 
 ![screenshot](screenshot.png?raw=true)
 
 ### 3 (4 points)
 
-> db.course_events.[complete this query]
+`> db.course_events.find({'actor.login' : {$in : ['doubleshow','chrisbopp']}},{'actor.login':1,created_at:1});`
 
 ![screenshot](screenshot.png?raw=true)
 
 ### 4 (4 points)
 
-> db.course_events.[complete this query]
+`> db.course_events.findOne({'type' : 'PushEvent' });`
 
 ![screenshot](screenshot.png?raw=true)
 
 ### 5 (4 points)
 
-> db.course_events.[complete this query]
+`db.course_events.find({'type' : 'PushEvent' }, {'payload.commits.author.name' : 1});`
 
 ![screenshot](screenshot.png?raw=true)
 
 ### 6 (4 points)
 
-> db.course_events.[complete this query]
+`db.course_events.findOne({'type' : 'IssuesEvent' }, {payload : 1});`
 
 ![screenshot](screenshot.png?raw=true)
 
 ### 7 (4 points)
 
-> db.course_events.[complete this query]
+`> db.course_events.find({'type' : 'IssuesEvent' }, { 'payload.issue.user.login' : 1});`
 
 ![screenshot](screenshot.png?raw=true)
 
 ### 8 (4 points)
 
-> db.course_events.[complete this query]
+`> db.course_events.find({'type':'IssuesEvent','payload.issue.state':'closed'}, {'payload.issue.id':1,'payload.issue.state':1});`
 
 ![screenshot](screenshot.png?raw=true)
 
 ### 9 (4 points)
 
-> db.course_events.[complete this query]
+`> db.course_events.find({'type':'IssuesEvent','payload.issue.state':'open'}, {'payload.issue.user.login':1,'payload.issue.state':1});`
 
 ![screenshot](screenshot.png?raw=true)
 
 ### 10 (4 points)
 
-> db.course_events.[complete this query]
+`> db.course_events.find({type:'IssuesEvent','payload.issue.comments':{$gt:0}}, {'payload.issue.user.login':1,'payload.issue.comments':1});`
 
 ![screenshot](screenshot.png?raw=true)
 
