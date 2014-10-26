@@ -23,11 +23,13 @@ fill-in-your-answer
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-article-about-machine-learning-use-for-big-data)
+[Big Data Digest: Rise of the think-bots](http://www.pcworld.com/article/2839092/big-data-digest-rise-of-the-thinkbots.html)
 
 ## Discuss how you may apply the machine learning technique mentioned in this article to another interesting problem (6 points).
 
-fill-in-your-answer
+The article talks about a API service that can be used by companies to get its data automatically analyzed with machine learning
+on the cloud. The same technique could be used to detect anomalies in the data flow from logs or user data to automatically detect
+and alert the company about possible bugs or events they may otherwise not notice.
 
 # D3 IV
 
