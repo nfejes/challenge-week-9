@@ -154,16 +154,16 @@ fill-in-your-answer
 
 ### 1 (8 points)
 
-{question-in-plain-English}
+When were pull requests made?
 
-> db.course_events.[complete this query]
+`> db.course_events.find({type : 'PullRequestEvent'},{'actor.login':1,created_at:1});`
 
-![screenshot](screenshots/mongodb/challenge0.png?raw=true)
+![screenshot](screenshots/mongodb/challenge11.png?raw=true)
 
 ### 2 (8 points)
 
-{question-in-plain-English}
+How many files were changed in the pull requests?
 
-> db.course_events.[complete this query]
+`> db.course_events.find({type : 'PullRequestEvent'},{'payload.pull_request.changed_files':1,'actor.login':1});`
 
-![screenshot](screenshots/mongodb/challenge0.png?raw=true)
+![screenshot](screenshots/mongodb/challenge12.png?raw=true)
