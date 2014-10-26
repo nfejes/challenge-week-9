@@ -17,7 +17,7 @@ Saturday (25/10/14)
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+Nothing was outstandingly difficult, but if something the review of how to use mongodb.
 
 # Show and tell (8 points)
 
